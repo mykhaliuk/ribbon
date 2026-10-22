@@ -47,7 +47,7 @@ export type Model = { id: string; NAME: string; input: number; read: number }
 export const MODELS: Model[] = [
   { id: 'fable', NAME: 'FABLE', input: 10, read: 0.25 },
   { id: 'opus', NAME: 'OPUS', input: 4, read: 0.2 },
-  { id: 'sonnet', NAME: 'SONNET', input: 2, read: 0.2 },
+  { id: 'sonnet', NAME: 'SONNET', input: 2, read: 0.1 },
   { id: 'haiku', NAME: 'HAIKU', input: 0.5, read: 0.05 },
 ]
 
