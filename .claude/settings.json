@@ -1,0 +1,10 @@
+{
+  "extraKnownMarketplaces": {
+    "mykhaliuk": {
+      "source": { "source": "github", "repo": "mykhaliuk/ribbon" }
+    }
+  },
+  "enabledPlugins": {
+    "ribbon@mykhaliuk": true
+  }
+}
