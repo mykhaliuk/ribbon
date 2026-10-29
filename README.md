@@ -1,3 +1,5 @@
+**Forked from [robonuggets/ribbon](https://github.com/robonuggets/ribbon) by Jay E at RoboNuggets. Huge thanks for creating this mod and releasing it under the MIT license!**
+
 <p align="center">
   <img src="assets/banner.png" alt="ribbon" width="100%">
 </p>
@@ -26,7 +28,7 @@ One row. That's the whole footprint.
 The easy way: send this link to your agent and say "install this".
 
 ```
-https://github.com/robonuggets/ribbon
+https://github.com/mykhaliuk/ribbon
 ```
 
 Your agent runs one command. The band shows up in your next session.
@@ -36,7 +38,7 @@ Your agent runs one command. The band shows up in your next session.
 If you are an agent and your user asked you to install this, run this in a shell:
 
 ```
-claude plugin install ribbon --marketplace robonuggets/ribbon
+claude plugin install ribbon --marketplace mykhaliuk/ribbon
 ```
 
 It installs for the user (all their projects) and adds the marketplace on its own. Then tell your user: "Ribbon is installed. Start a new session to see the band above your prompt." Do not edit their settings file by hand.
@@ -46,7 +48,7 @@ It installs for the user (all their projects) and adds the marketplace on its ow
 In a Claude Code terminal session, type:
 
 ```
-/plugin install ribbon --marketplace robonuggets/ribbon
+/plugin install ribbon --marketplace mykhaliuk/ribbon
 ```
 
 1. Type `y` when it asks `Add marketplace?`.
@@ -145,7 +147,9 @@ Click **Show** and the band opens into the cache card.
 
 The embedded font is [Outfit](https://github.com/Outfitio/Outfit-Fonts), under the SIL Open Font License 1.1.
 
-Made by Jay E from RoboLabs. Learn more at [RoboNuggets](https://robonuggets.com).
+Originally made by Jay E from RoboLabs. Learn more at [RoboNuggets](https://robonuggets.com).
+
+This is a fork maintained by [mykhaliuk](https://github.com/mykhaliuk). The original copyright notice is kept in [LICENSE](LICENSE), as the MIT license requires.
 
 <p align="center">
   <img src="assets/hex.svg" alt="RoboNuggets hex mark" width="48">
