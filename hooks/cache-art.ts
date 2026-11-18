@@ -6,8 +6,8 @@ import { SANS } from './font'
 export type Mode = 'warm' | 'cold'
 export type Kind = 'wide' | 'stacked' | 'tight'
 
-// The band's own colours, measured from the app.
-export const BG = '#24221c'
+// The drawings' dark palette, measured from the app. In a light theme, svgDoc's
+// LIGHT_CSS swaps each of these for a light counterpart.
 export const TEXT = '#e8e2d2'
 export const MUTED = '#8d8775'
 export const EMPTY = '#4a463b'

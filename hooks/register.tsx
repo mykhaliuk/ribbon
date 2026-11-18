@@ -15,8 +15,8 @@ const EMPTY = 'subtle'
 const ORANGE = 'claude'
 const YELLOW = 'warning'
 
-// A band above the prompt in a warm dark look: card surface, cream text,
-// dot-matrix bars. Shows how much of each usage window is LEFT, 7-day first, then
+// A band above the prompt on the app's own background, in the person's theme,
+// with dot-matrix bars. Shows how much of each usage window is LEFT, 7-day first, then
 // 5-hour; 7D is orange, 5H is yellow; a window under 15% adds a bold LOW.
 //
 // After the first reply it also shows the prompt cache: WARM (red, Robo bobbing)

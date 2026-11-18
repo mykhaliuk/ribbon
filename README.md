@@ -85,7 +85,7 @@ The card shows how long you've been idle, how many tokens are in the cache, and 
 ## Good to know
 
 - **It costs nothing to run.** It reads the app's own numbers and draws them. It never calls a model.
-- **Prices are estimates.** They come from a price table in `hooks/cache-art.ts` (`MODELS`), not from your bill. If prices change, edit that table.
+- **Prices are estimates.** They come from a price table in `hooks/cache-art.ts` (`MODELS`), not from your bill. If prices change, edit that table. After a resume, the cold price for your own model uses Claude Code's own estimate instead.
 - **Subagents don't count.** Only your main chat resets the cache clock.
 
 ## What is inside
@@ -101,7 +101,7 @@ ribbon/
 │   ├── cache-art.ts        the cache card and robot drawings, the price table
 │   └── font.ts             Outfit, embedded so the drawings render anywhere
 ├── types/index.d.ts        the shape of what the band remembers
-├── tests/                  7 tests: layouts, warm and cold, terminal, cleared sessions
+├── tests/                  10 tests: layouts, warm and cold, terminal, cleared sessions, light theme
 └── assets/                 banner, screenshots, hex icon
 ```
 
